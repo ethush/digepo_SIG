@@ -53,9 +53,9 @@ if($_GET){
 		$result = $db->query($sql);
 
 		foreach($result as $row){
-			$datos[] = $row[0];
-			$datos[] = $row[1];
-			$datos[] = $row[2];
+			$datos[] = $row[0]; //municipio
+			$datos[] = $row[1]; //region
+			$datos[] = $row[2]; //ruta_datos
 		}
 		if ($datos) addData($datos);
 		else error();
@@ -73,22 +73,23 @@ function addData($datos){
 	 * el cual puede ser generado por una consulta. 
 	 * Por hacer: Encriptar las rutas para regresarlas en el JSON
 	 */
-	$ruta_url = "http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/".$datos[2]."/grafico_pdf.pdf"; 
+	$ruta_url = "http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/".$datos[2]; 
 	$mcrypt = new MCrypt();
 	
 	$detalles["municipio"] = $mcrypt->encrypt($datos[0]);
 	$detalles["region"] = $mcrypt->encrypt($datos[1]);
 	/*URL con las graficas del municipio*/
-	$detalles["doc1"] = $mcrypt->encrypt($ruta_url);
-	$detalles["doc2"] = $mcrypt->encrypt($ruta_url);
-	$detalles["doc3"] = $mcrypt->encrypt($ruta_url);
-	$detalles["doc4"] = $mcrypt->encrypt($ruta_url);
-	$detalles["doc5"] = $mcrypt->encrypt($ruta_url);
-	$detalles["doc6"] = $mcrypt->encrypt($ruta_url);
-	$detalles["doc7"] = $mcrypt->encrypt($ruta_url);
-	$detalles["doc8"] = $mcrypt->encrypt($ruta_url);
-	$detalles["doc9"] = $mcrypt->encrypt($ruta_url);
-	$detalles["doc10"] = $mcrypt->encrypt($ruta_url);
+	$detalles["doc1"] = $mcrypt->encrypt($ruta_url. "/1.pdf");
+	$detalles["doc2"] = $mcrypt->encrypt($ruta_url. "/2.pdf");
+	$detalles["doc3"] = $mcrypt->encrypt($ruta_url. "/3.pdf");
+	$detalles["doc4"] = $mcrypt->encrypt($ruta_url. "/4.pdf");
+	$detalles["doc5"] = $mcrypt->encrypt($ruta_url. "/5.pdf");
+	$detalles["doc6"] = $mcrypt->encrypt($ruta_url. "/6.pdf");
+	$detalles["doc7"] = $mcrypt->encrypt($ruta_url. "/7.pdf");
+	$detalles["doc8"] = $mcrypt->encrypt($ruta_url. "/8.pdf");
+	$detalles["doc9"] = $mcrypt->encrypt($ruta_url. "/9.pdf");
+	$detalles["doc10"] = $mcrypt->encrypt($ruta_url. "10.pdf");
+	$detalles["doc11"] = $mcrypt->encrypt($ruta_url. "/11.pdf");
 	/*URL para regiones*/
 	//path_regiones = http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/<archivo>.pdf
 	//path_estatal = http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/estatal/oaxaca.pdf
@@ -102,6 +103,7 @@ function addData($datos){
 	$detalles["pais_doc8"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/pais/8.pdf");
 	$detalles["pais_doc9"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/pais/9.pdf");
 	$detalles["pais_doc10"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/pais/10.pdf");
+	$detalles["pais_doc11"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/pais/11.pdf");
 
 	$detalles["estado_doc1"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/estado/1.pdf");
 	$detalles["estado_doc2"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/estado/2.pdf");
@@ -113,6 +115,7 @@ function addData($datos){
 	$detalles["estado_doc8"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/estado/8.pdf");
 	$detalles["estado_doc9"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/estado/9.pdf");
 	$detalles["estado_doc10"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/estado/10.pdf");
+	$detalles["estado_doc11"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/estado/11.pdf");
 
 	$detalles["canada_doc1"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/canada/1.pdf");
 	$detalles["canada_doc2"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/canada/2.pdf");
@@ -123,7 +126,8 @@ function addData($datos){
 	$detalles["canada_doc7"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/canada/7.pdf");
 	$detalles["canada_doc8"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/canada/8.pdf");
 	$detalles["canada_doc9"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/canada/9.pdf");
-	$detalles["canada_doc10"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/canada/10.pdf");
+	$detalles["canada_doc10"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/estado/10.pdf");
+	$detalles["canada_doc11"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/estado/11.pdf");
 
 	$detalles["costa_doc1"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/costa/1.pdf");
 	$detalles["costa_doc2"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/costa/2.pdf");
@@ -135,6 +139,7 @@ function addData($datos){
 	$detalles["costa_doc8"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/costa/8.pdf");
 	$detalles["costa_doc9"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/costa/9.pdf");
 	$detalles["costa_doc10"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/costa/10.pdf");
+	$detalles["costa_doc11"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/costa/11.pdf");
 
 	$detalles["istmo_doc1"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/istmo_/1.pdf");
 	$detalles["istmo_doc2"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/istmo/2.pdf");
@@ -146,6 +151,7 @@ function addData($datos){
 	$detalles["istmo_doc8"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/istmo/8.pdf");
 	$detalles["istmo_doc9"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/istmo/9.pdf");
 	$detalles["istmo_doc10"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/istmo/10.pdf");
+	$detalles["istmo_doc11"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/istmo/11.pdf");
 
 	$detalles["mixteca_doc1"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/mixteca/1.pdf");
 	$detalles["mixteca_doc2"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/mixteca/2.pdf");
@@ -157,6 +163,7 @@ function addData($datos){
 	$detalles["mixteca_doc8"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/mixteca/8.pdf");
 	$detalles["mixteca_doc9"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/mixteca/9.pdf");
 	$detalles["mixteca_doc10"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/mixteca/10.pdf");
+	$detalles["mixteca_doc11"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/mixteca/11.pdf");
 
 	$detalles["papaloapam_doc1"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/papaloapam/1.pdf");
 	$detalles["papaloapam_doc2"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/papaloapam/2.pdf");
@@ -168,6 +175,7 @@ function addData($datos){
 	$detalles["papaloapam_doc8"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/papaloapam/8.pdf");
 	$detalles["papaloapam_doc9"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/papaloapam/9.pdf");
 	$detalles["papaloapam_doc10"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/papaloapam/10.pdf");
+	$detalles["papaloapam_doc11"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/papaloapam/11.pdf");
 
 	$detalles["sierra_norte_doc1"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/sierra_norte/1.pdf");
 	$detalles["sierra_norte_doc2"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/sierra_norte/2.pdf");
@@ -179,6 +187,7 @@ function addData($datos){
 	$detalles["sierra_norte_doc8"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/sierra_norte/8.pdf");
 	$detalles["sierra_norte_doc9"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/sierra_norte/9.pdf");
 	$detalles["sierra_norte_doc10"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/sierra_norte/10.pdf");
+	$detalles["sierra_norte_doc11"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/sierra_norte/11.pdf");
 
 	$detalles["sierra_sur_doc1"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/sierra_sur/1.pdf");
 	$detalles["sierra_sur_doc2"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/sierra_sur/2.pdf");
@@ -190,6 +199,7 @@ function addData($datos){
 	$detalles["sierra_sur_doc8"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/sierra_sur/8.pdf");
 	$detalles["sierra_sur_doc9"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/sierra_sur/9.pdf");
 	$detalles["sierra_sur_doc10"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/sierra_sur/10.pdf");
+	$detalles["sierra_sur_doc11"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/sierra_sur/11.pdf");
 
 	$detalles["valles_centrales_doc1"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/valles_centrales/1.pdf");
 	$detalles["valles_centrales_doc2"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/valles_centrales/2.pdf");
@@ -201,6 +211,7 @@ function addData($datos){
 	$detalles["valles_centrales_doc8"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/valles_centrales/8.pdf");
 	$detalles["valles_centrales_doc9"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/valles_centrales/9.pdf");
 	$detalles["valles_centrales_doc10"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/valles_centrales/10.pdf");
+	$detalles["valles_centrales_doc11"] = $mcrypt->encrypt("http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/data/regiones/valles_centrales/11.pdf");
 
 	$detalles["msg_error"] = "Datos cargados.";
 	$detalles["result"] = "OK";
