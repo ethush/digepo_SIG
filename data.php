@@ -36,26 +36,28 @@ if($_GET){
 	$get_vecindario = strtolower($get_vecindario);
 	
 	if($get_localidad != 'Dalvik' && $get_localidad != ""){
-		$sql = 'SELECT municipio, region, ruta_datos FROM municipios WHERE municipio LIKE "%'.utf8_decode($get_localidad).'%"';
+		$sql = 'SELECT municipio, region, ruta_datos, id FROM municipios WHERE municipio LIKE "%'.utf8_decode($get_localidad).'%"';
 		$result = $db->query($sql);
 		
 		foreach($result as $row){
 			$datos[] = $row[0];
 			$datos[] = $row[1];
 			$datos[] = $row[2];
+			$datos[] = $row[3];
 		}
 		
 		if ($datos != null) addData($datos);
 		else error();
 	}
 	else if ($get_vecindario != ""){
-		$sql = 'SELECT municipio, region, ruta_datos FROM municipios WHERE municipio LIKE "%'.utf8_decode($get_vecindario).'%"'; 
+		$sql = 'SELECT municipio, region, ruta_datos, id FROM municipios WHERE municipio LIKE "%'.utf8_decode($get_vecindario).'%"'; 
 		$result = $db->query($sql);
-
+		
 		foreach($result as $row){
 			$datos[] = $row[0]; //municipio
 			$datos[] = $row[1]; //region
 			$datos[] = $row[2]; //ruta_datos
+			$datos[] = $row[3]; //id municipio
 		}
 		if ($datos) addData($datos);
 		else error();
@@ -73,9 +75,10 @@ function addData($datos){
 	 * el cual puede ser generado por una consulta. 
 	 * Por hacer: Encriptar las rutas para regresarlas en el JSON
 	 */
+	// URL para parseo de pdf 
 	$ruta_url = "http://docs.google.com/gview?embedded=true&url=http://www.gioax.com.mx/digepo_SIG/".$datos[2]; 
 	$mcrypt = new MCrypt();
-	
+	$detalles["id_municipio"] =  $mcrypt->encrypt($datos[3]);
 	$detalles["municipio"] = $mcrypt->encrypt($datos[0]);
 	$detalles["region"] = $mcrypt->encrypt($datos[1]);
 	/*URL con las graficas del municipio*/
