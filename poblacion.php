@@ -22,15 +22,15 @@ if ($_GET) {
 
 
 	foreach($result as $row) {
-			$datos["datos"] = "<html><head><meta charset='utf-8'></head><body style='background: #a9a46f;'><table>";
-			$datos["datos"] .= "<tr><td><strong>Poblacion total:</strong></td><td><strong> ".$row[0] ."</strong> </td></tr>";
-			$datos["datos"] .= "<tr><td colspan='2'><small>Representa el ".$row[1] ." de la poblaci&oacute;n del estado.</small></td></tr>";
-			$datos["datos"] .= "<tr><td><strong>Relaci&oacute;n hombres-mujeres: </strong></td><td><strong>" .$row[4]. "%</strong</td></tr>";
-			$datos["datos"] .= "<tr><td colspan='2'><small>Por cada 100 mujeres hay ".round($row[4]). " hombres.</small></td></tr>" ;
-			$datos["datos"] .= "<tr><td><strong>Edad mediana:</strong></td><td><strong>".$row[3] ."</strong></td></tr>";
-			$datos["datos"] .= "<tr><td colspan='2'><small>La mitad de la poblaci&oacute;n es menor de ".$row[3]. " a&ntilde;os.</small></td></tr>";
-			$datos["datos"] .= "<tr><td><strong>Raz&oacute;n de dependencia econ&oacute;mica: </strong></td><td><strong>".$row[2]."</strong></td></tr>";
-			$datos["datos"] .= "<tr><td colspan='2'><small>Por cada 100 personas hay ".round(str_replace("%","", $row[2])) ." en edad de dependencia (menores de 15 a&ntilde;os o mayores de 64 a&ntilde;os). </strong></td></tr>";
+			$datos["datos"] = "<html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width, target-densityDpi=device-dpi'></head><body style='background: #a9a46f;'><table width='100%'>";
+			$datos["datos"] .= "<tr><td><strong>Poblacion total:</strong></td><td align='right'><strong> ".$row[0] ."</strong> </td></tr>";
+			$datos["datos"] .= "<tr><td colspan='2' >Representa el ".$row[1] ." de la poblaci&oacute;n del estado.</td></tr>";
+			$datos["datos"] .= "<tr><td><strong>Relaci&oacute;n hombres-mujeres: </strong></td><td align='right'><strong>" .$row[4]. "%</strong</td></tr>";
+			$datos["datos"] .= "<tr><td colspan='2'>Por cada 100 mujeres hay ".round($row[4]). " hombres.</td></tr>" ;
+			$datos["datos"] .= "<tr><td><strong>Edad mediana:</strong></td><td align='right'><strong>".$row[3] ."</strong></td></tr>";
+			$datos["datos"] .= "<tr><td colspan='2'>La mitad de la poblaci&oacute;n es menor de ".$row[3]. " a&ntilde;os.</td></tr>";
+			$datos["datos"] .= "<tr><td><strong>Raz&oacute;n de dependencia econ&oacute;mica: </strong></td><td align='right'><strong>".$row[2]."</strong></td></tr>";
+			$datos["datos"] .= "<tr><td colspan='2'>Por cada 100 personas hay ".round(str_replace("%","", $row[2])) ." en edad de dependencia (menores de 15 a&ntilde;os o mayores de 64 a&ntilde;os). </strong></td></tr>";
 			/*
 			$datos["datos"] .= "\nÍndice de marginación: ".$row[5];
 			$datos["datos"] .= "\nÍndice de marginación escala 0 a 100: ".$row[6];

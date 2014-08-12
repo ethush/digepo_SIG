@@ -28,6 +28,9 @@ if($_GET){
 	*/
 	$get_localidad = utf8_decode($get_localidad);
 	$get_vecindario = utf8_decode($get_vecindario);
+
+	//$get_localidad = $get_localidad;
+	//$get_vecindario = $get_vecindario;
 	
 	$get_localidad = sanear_string($get_localidad);
 	$get_vecindario = sanear_string($get_vecindario);
@@ -37,6 +40,7 @@ if($_GET){
 	
 	if($get_localidad != 'Dalvik' && $get_localidad != ""){
 		$sql = 'SELECT municipio, region, ruta_datos, id FROM municipios WHERE municipio LIKE "%'.utf8_decode($get_localidad).'%"';
+		//echo $sql . "<br>";
 		$result = $db->query($sql);
 		
 		foreach($result as $row){
