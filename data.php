@@ -56,7 +56,7 @@ if($_GET){
 	else if ($get_vecindario != ""){
 		$sql = 'SELECT municipio, region, ruta_datos, id FROM municipios WHERE municipio LIKE "%'.utf8_decode($get_vecindario).'%"'; 
 		$result = $db->query($sql);
-		
+		//echo $sql."<br>";
 		foreach($result as $row){
 			$datos[] = $row[0]; //municipio
 			$datos[] = $row[1]; //region
