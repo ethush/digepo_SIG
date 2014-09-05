@@ -19,7 +19,7 @@ if ($_GET) {
 
 	foreach($result as $row) {
 		$datos["datos"] = "<html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width, target-densityDpi=device-dpi'></head><body style='background: #a9a46f;'><table width='100%'>";
-		$datos["datos"] .= "<tr align='center'><td colspan='2'><strong>Promedio de hijos nacidos vivos por grupo de edad.</strong></td></tr>";
+		$datos["datos"] .= "<tr><td colspan='2'><strong>Promedio de hijos nacidos vivos por grupo de edad.</strong></td></tr>";
 		$datos["datos"] .= "<tr><td>20-24 a&ntilde;os</td><td>".$row[0]."%</td></tr>";
 		$datos["datos"] .= "<tr><td>25-29 a&ntilde;os</td><td>".$row[1]."%</td></tr>";
 		$datos["datos"] .= "<tr><td>30-34 a&ntilde;os</td><td>".$row[2]."%</td></tr>";
@@ -35,7 +35,7 @@ if ($_GET) {
 		$datos["datos"] .= "<tr><td>80-84 a&ntilde;os</td><td>".$row[12]."%</td></tr>";
 		$datos["datos"] .= "<tr><td>85 a&ntilde;os y m&aacute;s</td><td>".$row[13]."%</td></tr>";
 		$datos["datos"] .= "</table>";
-		$datos["datos"] .= "<p>Mujeres entre 25 y 29 a&ntilde;os de edad han tenido en promedio ".round($row[0])." hijo(s) nacido(s) vivo(s); mientras que este promedio es de ".round($row[9])." hijo(s) nacido(s) vivo(s) para mujeres entre 65 y 69 a&ntilde;os de edad.</p>";
+		$datos["datos"] .= "<p align='justify'>Mujeres entre 25 y 29 a&ntilde;os de edad han tenido en promedio ".round($row[0])." hijo(s) nacido(s) vivo(s); mientras que este promedio es de ".round($row[9])." hijo(s) nacido(s) vivo(s) para mujeres entre 65 y 69 a&ntilde;os de edad.</p>";
 		
 
 	}
@@ -46,7 +46,7 @@ if ($_GET) {
 
 	foreach($result as $row) {
 		$datos["datos"] .= "</br><hr/><br><table width='100%'>";
-		$datos["datos"] .= "<tr align='center'><td colspan='2'><strong>Porcentaje de hijos fallecidos por grupo de edad.</strong></td></tr>";
+		$datos["datos"] .= "<tr><td colspan='2'><strong>Porcentaje de hijos fallecidos por grupo de edad.</strong></td></tr>";
 		$datos["datos"] .= "<tr><td>20-24 a&ntilde;os</td><td>".$row[0]."%</td></tr>";
 		$datos["datos"] .= "<tr><td>25-29 a&ntilde;os</td><td>".$row[1]."%</td></tr>";
 		$datos["datos"] .= "<tr><td>30-34 a&ntilde;os</td><td>".$row[2]."%</td></tr>";
@@ -62,7 +62,7 @@ if ($_GET) {
 		$datos["datos"] .= "<tr><td>80-84 a&ntilde;os</td><td>".$row[12]."%</td></tr>";
 		$datos["datos"] .= "<tr><td>85 a&ntilde;os y m&aacute;s</td><td>".$row[13]."%</td></tr>";
 		$datos["datos"] .= "</table>";
-		$datos["datos"] .= "<p>Por cada 100 ni&ntilde;os nacidos vivos, se registra(n) ".round($row[0])." fallecimiento(s) entre las mujeres de 20 a 24 a&ntilde;os de edad; mientras que las mujeres entre 75 y 79 a&ntilde;os, el porcentaje es de ".round($row[11])." fallecimiento(s) y para mujeres de 85 a&ntilde;os y m&aacute;s, se registran ".round($row[13])." fallecimiento(s).</p>";
+		$datos["datos"] .= "<p align='justify'>Por cada 100 ni&ntilde;os nacidos vivos, se registra(n) ".round($row[0])." fallecimiento(s) entre las mujeres de 20 a 24 a&ntilde;os de edad; mientras que las mujeres entre 75 y 79 a&ntilde;os, el porcentaje es de ".round($row[11])." fallecimiento(s) y para mujeres de 85 a&ntilde;os y m&aacute;s, se registran ".round($row[13])." fallecimiento(s).</p>";
 	}
 	$datos["datos"] .= "</body></html>";
 

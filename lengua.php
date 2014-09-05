@@ -28,7 +28,7 @@ if ($_GET) {
 		$datos["datos"] .= "<tr><td><strong>Poblaci&oacute;n de 3 a&ntilde;os y m&aacute;s que habla lengua indigena y espa&ntilde;ol</strong></td><td align='center'>".$row[6]."</td><td align='center'>".$row[7]."</td><td align='center'>".$row[8]."</td></tr>";
 		
 		$datos["datos"] .= "</table>";
-		$datos["datos"] .= "<p>De cada 100 personas mayores de 3 a&ntilde;os, el ".round(str_replace("%", "", $row[3]))."% hablan alguna lengua ind&iacute;gena; del 100% de estas personas, el ".round(str_replace("%", "", $row[6]))."% tambi&eacute;n habla espa&ntilde;ol.</p>";
+		$datos["datos"] .= "<p align='justify'>De cada 100 personas mayores de 3 a&ntilde;os, el ".round(str_replace("%", "", $row[3]))."% hablan alguna lengua ind&iacute;gena; del 100% de estas personas, el ".round(str_replace("%", "", $row[6]))."% tambi&eacute;n habla espa&ntilde;ol.</p>";
 		$datos["datos"] .= "</body></html>";
 
 	}

@@ -39,7 +39,7 @@ if ($_GET) {
 		$datos["datos"] .= "<tr><td>No derechohabiente</td><td align='center'>".$row[21]."%</td><td align='center'>".$row[22]."</td><td align='center'>".$row[23]."</td></tr>";
 		$datos["datos"] .= "<tr><td>No especificado</td><td align='center'>".$row[24]."%</td><td align='center'>".$row[25]."</td><td align='center'>".$row[26]."</td></tr>";
 		$datos["datos"] .= "</table>";
-		$datos["datos"] .= "<p>De cada 100 personas ".round($row[0])." reportan alguna limitaci&oacute;n f&iacute;sica.</p>";
+		$datos["datos"] .= "<p align='justify'>De cada 100 personas ".round($row[0])." reportan alguna limitaci&oacute;n f&iacute;sica.</p>";
 		$datos["datos"] .= "</body></html>";
 
 	}

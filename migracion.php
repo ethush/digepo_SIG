@@ -33,7 +33,7 @@ if ($_GET) {
 		$datos["datos"] .= "<tr><td><strong>Poblaci&oacute;n de 5 a&ntilde;os y m&aacute;s residentes en la entidad en junio de 2005.</strong></td><td align='center'>".$row[12]."</td><td align='center'>".$row[13]."</td><td align='center'>".$row[14]."</td></tr>";
 		$datos["datos"] .= "<tr><td><strong>Poblaci&oacute;n de 5 a&ntilde;os y m&aacute;s residente en otra entidad en junio de 2005.</strong></td><td align='center'>".$row[15]."</td><td align='center'>".$row[16]."</td><td align='center'>".$row[17]."</td></tr>";
 		$datos["datos"] .= "</table>";
-		$datos["datos"] .= "<p>De cada 100 personas, ".round(str_replace("%", "", $row[0]))." son nacidas en la entidad, ".round(str_replace("%", "", $row[1]))." son hombres y ".round(str_replace("%", "", $row[2]))." son mujeres.</p>";
+		$datos["datos"] .= "<p align='justify'>De cada 100 personas, ".round(str_replace("%", "", $row[0]))." son nacidas en la entidad, ".round(str_replace("%", "", $row[1]))." son hombres y ".round(str_replace("%", "", $row[2]))." son mujeres.</p>";
 		$datos["datos"] .= "</body></html>";
 
 	}

@@ -36,7 +36,7 @@ if ($_GET) {
 		$datos["datos"] .= "<tr><td></td><td align='center'>".$row[11]."</td><td align='center'> - </td><td align='center'> - </td></tr>";
 		
 		$datos["datos"] .= "</table>";
-		$datos["datos"] .= "<p>De cada 100 personas, ".round($row[7])." son cat&oacute;licas.</p>";
+		$datos["datos"] .= "<p align='justify'>De cada 100 personas, ".round($row[7])." son cat&oacute;licas.</p>";
 		$datos["datos"] .= "</body></html>";
 
 	}
