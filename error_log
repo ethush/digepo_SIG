@@ -1,0 +1,18 @@
+[12-Mar-2014 15:10:09] PHP Warning:  mcrypt_generic() [<a href='function.mcrypt-generic'>function.mcrypt-generic</a>]: An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/text_enc.php on line 19
+[12-Mar-2014 15:10:09] PHP Warning:  mcrypt_generic() [<a href='function.mcrypt-generic'>function.mcrypt-generic</a>]: An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/text_enc.php on line 19
+[12-Mar-2014 15:10:09] PHP Warning:  mdecrypt_generic() [<a href='function.mdecrypt-generic'>function.mdecrypt-generic</a>]: An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/text_enc.php on line 35
+[12-Mar-2014 15:10:09] PHP Warning:  mdecrypt_generic() [<a href='function.mdecrypt-generic'>function.mdecrypt-generic</a>]: An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/text_enc.php on line 35
+[12-Mar-2014 15:10:25] PHP Warning:  mcrypt_generic() [<a href='function.mcrypt-generic'>function.mcrypt-generic</a>]: An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/text_enc.php on line 19
+[12-Mar-2014 15:10:25] PHP Warning:  mdecrypt_generic() [<a href='function.mdecrypt-generic'>function.mdecrypt-generic</a>]: An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/text_enc.php on line 35
+[06-Aug-2014 16:03:11 America/Chicago] PHP Fatal error:  Cannot access empty property in /home/gioaxcom/public_html/digepo_SIG/data.php on line 80
+[07-Aug-2014 08:57:42 America/Chicago] PHP Fatal error:  Cannot access empty property in /home/gioaxcom/public_html/digepo_SIG/data.php on line 80
+[07-Aug-2014 09:01:14 America/Chicago] PHP Fatal error:  Cannot access empty property in /home/gioaxcom/public_html/digepo_SIG/data.php on line 80
+[07-Aug-2014 09:01:33 America/Chicago] PHP Fatal error:  Cannot access empty property in /home/gioaxcom/public_html/digepo_SIG/data.php on line 80
+[07-Aug-2014 09:03:13 America/Chicago] PHP Fatal error:  Cannot access empty property in /home/gioaxcom/public_html/digepo_SIG/data.php on line 80
+[07-Aug-2014 09:10:50 America/Chicago] PHP Fatal error:  Cannot access empty property in /home/gioaxcom/public_html/digepo_SIG/data.php on line 80
+[07-Aug-2014 09:14:23 America/Chicago] PHP Fatal error:  Cannot access empty property in /home/gioaxcom/public_html/digepo_SIG/data.php on line 80
+[07-Aug-2014 09:22:40 America/Chicago] PHP Fatal error:  Cannot access empty property in /home/gioaxcom/public_html/digepo_SIG/data.php on line 80
+[07-Aug-2014 09:25:26 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/gioaxcom/public_html/digepo_SIG/data.php on line 47
+[26-Aug-2014 18:29:42 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[26-Aug-2014 20:14:41 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[26-Aug-2014 20:14:52 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/vivienda.php on line 20
