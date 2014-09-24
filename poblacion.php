@@ -22,9 +22,11 @@ if ($_GET) {
 	$nombre_municipio = "";
 	
 	foreach($result as $row) {
-		$datos["datos"] .= "<div align='center'> <h3>".$row[0]."</h3>";
-		$datos["datos"] .= "<p style='margin-top:-15px'><h4>Distrito:".$utils->sanear_string(utf8_encode($row[1]))."</h4></p>";
-		$datos["datos"] .= "<p style='margin-top:-15px'><h4>Regi&oacute;n: ".$row[2]."</h4></p>";
+			
+		$datos["datos"] .= "<div align='center'> <h3>".str_replace("ñ", "&ntilde;", utf8_encode($row[0]))."</h3>";
+		$nombre_municipio = str_replace("ñ", "&ntilde;", utf8_encode($row[1]));
+		$datos["datos"] .= "<p style='margin-top:-15px'><h4>Distrito:".$utils->sanear_string($nombre_municipio)."</h4></p>";
+		$datos["datos"] .= "<p style='margin-top:-15px'><h4>Regi&oacute;n: ".str_replace("ñ", "&ntilde;", utf8_encode($row[2]))."</h4></p>";
 		$datos["datos"] .= "<p style='margin-top:-15px'><h4>Clave Geoestad&iacute;stica: ".$row[3]."</h4></p>";
 		$datos["datos"] .= "</div><hr>";
 
@@ -35,10 +37,11 @@ if ($_GET) {
 	 * Seccion para agregar presidente, sistema politico y diputado local
 	 *
 	 */
+	
 	$sql = "select cargo,nombre,regimen from politica where municipio like'".$nombre_municipio."';";
 	$result = $db->query($sql);
 	$politica  = $result->fetchAll();
-	$datos["datos"] .= "<p><strong>".$politica[0][0].": ".$politica[0][1]."</strong></p>";
+	$datos["datos"] .= "<p><strong>".$politica[0][0].": ".str_replace("ñ", "&ntilde;", utf8_encode($politica[0][1]))."</strong></p>";
 	
 	//El sistema provee U/C y P/P se pone de forma explicita los textos completos
 	$electoral = ($politica[0][2]=="U/C")?"Usos y Costumbres":"Partidos Politicos";

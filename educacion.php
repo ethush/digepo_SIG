@@ -22,9 +22,10 @@ if ($_GET) {
 	$nombre_municipio = "";
 	
 	foreach($result as $row) {
-		$datos["datos"] .= "<div align='center'> <h3>".$row[0]."</h3>";
-		$datos["datos"] .= "<p style='margin-top:-15px'><h4>Distrito:".$utils->sanear_string(utf8_encode($row[1]))."</h4></p>";
-		$datos["datos"] .= "<p style='margin-top:-15px'><h4>Regi&oacute;n: ".$row[2]."</h4></p>";
+		$datos["datos"] .= "<div align='center'> <h3>".str_replace("ñ", "&ntilde;", utf8_encode($row[0]))."</h3>";
+		$nombre_municipio = str_replace("ñ", "&ntilde;", utf8_encode($row[1]));
+		$datos["datos"] .= "<p style='margin-top:-15px'><h4>Distrito:".$utils->sanear_string($nombre_municipio)."</h4></p>";
+		$datos["datos"] .= "<p style='margin-top:-15px'><h4>Regi&oacute;n: ".str_replace("ñ", "&ntilde;", utf8_encode($row[2]))."</h4></p>";
 		$datos["datos"] .= "<p style='margin-top:-15px'><h4>Clave Geoestad&iacute;stica: ".$row[3]."</h4></p>";
 		$datos["datos"] .= "</div><hr>";
 
@@ -93,39 +94,47 @@ if ($_GET) {
 	$total_asiste = operacion($rango_a,$parametros[1],$nombre_municipio,$db);
 	$hombres_asiste = operacion($rango_a,$parametros[2],$nombre_municipio,$db);
 	$mujeres_asiste = operacion($rango_a,$parametros[3],$nombre_municipio,$db);
-
-	$datos["datos"] .= "<tr align='center'><td width='40%'>3 - 5 a&ntilde;os</td><td>" .round(($total_asiste/$total_habitantes)*100,2). "%</td><td>". round(($hombres_asiste/$total_asiste)*100,2)."%</td><td>".round(($mujeres_asiste/$total_asiste)*100,2)."%</td></tr>";
+	$total = ($total_asiste != 0 && $total_habitantes !=0) ? ($total_asiste/$total_habitantes)*100 : 0;
+	$asiste_hombre = ($hombres_asiste != 0 && $total_asiste != 0) ? ($hombres_asiste/$total_asiste)*100 : 0;
+	$asiste_mujer =  ($mujeres_asiste != 0 && $total_asiste != 0) ? ($mujeres_asiste/$total_asiste)*100 : 0;
+	$datos["datos"] .= "<tr align='center'><td width='40%'>3 - 5 a&ntilde;os</td><td>" .round($total,2). "%</td><td>". round($asiste_hombre,2)."%</td><td>".round($asiste_mujer,2)."%</td></tr>";
 
 
 	$total_habitantes = operacion($rango_b,$parametros[0],$nombre_municipio,$db);
 	$total_asiste = operacion($rango_b,$parametros[1],$nombre_municipio,$db);
 	$hombres_asiste = operacion($rango_b,$parametros[2],$nombre_municipio,$db);
 	$mujeres_asiste = operacion($rango_b,$parametros[3],$nombre_municipio,$db);
-
-	$datos["datos"] .= "<tr align='center'><td width='40%'>6 - 11 a&ntilde;os</td><td>" .round(($total_asiste/$total_habitantes)*100,2). "%</td><td>". round(($hombres_asiste/$total_asiste)*100,2)."%</td><td>".round(($mujeres_asiste/$total_asiste)*100,2)."%</td></tr>";
+	$total = ($total_asiste != 0 && $total_habitantes !=0) ? ($total_asiste/$total_habitantes)*100 : 0;
+	$asiste_hombre = ($hombres_asiste != 0 && $total_asiste != 0) ? ($hombres_asiste/$total_asiste)*100 : 0;
+	$asiste_mujer =  ($mujeres_asiste != 0 && $total_asiste != 0) ? ($mujeres_asiste/$total_asiste)*100 : 0;
+	$datos["datos"] .= "<tr align='center'><td width='40%'>6 - 11 a&ntilde;os</td><td>" .round($total,2). "%</td><td>". round($asiste_hombre,2)."%</td><td>".round($asiste_mujer,2)."%</td></tr>";
 
 
 	$total_habitantes = operacion($rango_c,$parametros[0],$nombre_municipio,$db);
 	$total_asiste = operacion($rango_c,$parametros[1],$nombre_municipio,$db);
 	$hombres_asiste = operacion($rango_c,$parametros[2],$nombre_municipio,$db);
 	$mujeres_asiste = operacion($rango_c,$parametros[3],$nombre_municipio,$db);
-
-	$datos["datos"] .= "<tr align='center'><td width='40%'>6 - 11 a&ntilde;os</td><td>" .round(($total_asiste/$total_habitantes)*100,2). "%</td><td>". round(($hombres_asiste/$total_asiste)*100,2)."%</td><td>".round(($mujeres_asiste/$total_asiste)*100,2)."%</td></tr>";
+	$total = ($total_asiste != 0 && $total_habitantes !=0) ? ($total_asiste/$total_habitantes)*100 : 0;
+	$asiste_hombre = ($hombres_asiste != 0 && $total_asiste != 0) ? ($hombres_asiste/$total_asiste)*100 : 0;
+	$asiste_mujer =  ($mujeres_asiste != 0 && $total_asiste != 0) ? ($mujeres_asiste/$total_asiste)*100 : 0;
+	$datos["datos"] .= "<tr align='center'><td width='40%'>6 - 11 a&ntilde;os</td><td>" .round($total,2). "%</td><td>". round($asiste_hombre,2)."%</td><td>".round($asiste_mujer,2)."%</td></tr>";
 
 
 	$total_habitantes = operacion($rango_d,$parametros[0],$nombre_municipio,$db);
 	$total_asiste = operacion($rango_d,$parametros[1],$nombre_municipio,$db);
 	$hombres_asiste = operacion($rango_d,$parametros[2],$nombre_municipio,$db);
 	$mujeres_asiste = operacion($rango_d,$parametros[3],$nombre_municipio,$db);
-
-	$datos["datos"] .= "<tr align='center'><td width='40%'>15 - 24 a&ntilde;os</td><td>" .round(($total_asiste/$total_habitantes)*100,2). "%</td><td>". round(($hombres_asiste/$total_asiste)*100,2)."%</td><td>".round(($mujeres_asiste/$total_asiste)*100,2)."%</td></tr>";
+	$total = ($total_asiste != 0 && $total_habitantes !=0) ? ($total_asiste/$total_habitantes)*100 : 0;
+	$asiste_hombre = ($hombres_asiste != 0 && $total_asiste != 0) ? ($hombres_asiste/$total_asiste)*100 : 0;
+	$asiste_mujer =  ($mujeres_asiste != 0 && $total_asiste != 0) ? ($mujeres_asiste/$total_asiste)*100 : 0;
+	$datos["datos"] .= "<tr align='center'><td width='40%'>15 - 24 a&ntilde;os</td><td>" .round($total,2). "%</td><td>". round($asiste_hombre,2)."%</td><td>".round($asiste_mujer,2)."%</td></tr>";
 	$datos["datos"] .= "</table>";
-	$datos["datos"] .= "<p align='justify'>De cada 100 personas entre 15 y 24 a&ntilde;os, ".round(($total_asiste/$total_habitantes)*100,0)." asisten a la escuela.</p>";
+	$datos["datos"] .= "<p align='justify'>De cada 100 personas entre 15 y 24 a&ntilde;os, ".round($total,0)." asisten a la escuela.</p>";
 	echo json_encode($datos);
 }
 
 function operacion($rango,$parametros,$municipio,$db) {
-	
+	$suma = 0;
 	for($i=0;$i<count($rango);$i++) {
 		$sql = 'select '.$parametros.' from educacion_edades where  edad like "%'.utf8_decode($rango[$i]).'%" and municipio like "%'.$municipio.'%"';
 		//echo $sql;
