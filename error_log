@@ -16,3 +16,392 @@
 [26-Aug-2014 18:29:42 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
 [26-Aug-2014 20:14:41 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
 [26-Aug-2014 20:14:52 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/vivienda.php on line 20
+[03-Sep-2014 14:33:47 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 23
+[05-Sep-2014 10:59:11 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 21
+[05-Sep-2014 10:59:11 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 39
+[05-Sep-2014 10:59:11 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 63
+[07-Sep-2014 21:50:00 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/natalidad_mortalidad.php on line 20
+[07-Sep-2014 21:50:00 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/natalidad_mortalidad.php on line 47
+[10-Sep-2014 22:51:58 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 21
+[10-Sep-2014 22:51:58 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 39
+[10-Sep-2014 22:51:58 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 63
+[10-Sep-2014 22:52:05 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/vivienda.php on line 20
+[12-Sep-2014 14:56:27 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 23
+[12-Sep-2014 14:56:27 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 43
+[12-Sep-2014 14:56:27 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 92
+[12-Sep-2014 14:57:44 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 23
+[12-Sep-2014 14:57:44 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 43
+[12-Sep-2014 14:57:44 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 92
+[14-Sep-2014 15:13:52 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/situacion.php on line 18
+[14-Sep-2014 15:14:28 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/religion.php on line 25
+[17-Sep-2014 13:21:11 America/Chicago] PHP Warning:  include_once(utils.php): failed to open stream: No such file or directory in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 2
+[17-Sep-2014 13:21:11 America/Chicago] PHP Warning:  include_once(): Failed opening 'utils.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 2
+[17-Sep-2014 13:21:11 America/Chicago] PHP Fatal error:  Class 'Utils' not found in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 5
+[17-Sep-2014 13:21:27 America/Chicago] PHP Warning:  include_once(utils.php): failed to open stream: No such file or directory in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 2
+[17-Sep-2014 13:21:27 America/Chicago] PHP Warning:  include_once(): Failed opening 'utils.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 2
+[17-Sep-2014 13:21:27 America/Chicago] PHP Fatal error:  Class 'Utils' not found in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 5
+[17-Sep-2014 13:21:33 America/Chicago] PHP Warning:  include_once(utils.php): failed to open stream: No such file or directory in /home/gioaxcom/public_html/digepo_SIG/vivienda.php on line 2
+[17-Sep-2014 13:21:33 America/Chicago] PHP Warning:  include_once(): Failed opening 'utils.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/gioaxcom/public_html/digepo_SIG/vivienda.php on line 2
+[17-Sep-2014 13:21:33 America/Chicago] PHP Fatal error:  Class 'Utils' not found in /home/gioaxcom/public_html/digepo_SIG/vivienda.php on line 5
+[17-Sep-2014 13:21:55 America/Chicago] PHP Warning:  include_once(utils.php): failed to open stream: No such file or directory in /home/gioaxcom/public_html/digepo_SIG/vivienda.php on line 2
+[17-Sep-2014 13:21:55 America/Chicago] PHP Warning:  include_once(): Failed opening 'utils.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/gioaxcom/public_html/digepo_SIG/vivienda.php on line 2
+[17-Sep-2014 13:21:55 America/Chicago] PHP Fatal error:  Class 'Utils' not found in /home/gioaxcom/public_html/digepo_SIG/vivienda.php on line 5
+[17-Sep-2014 13:31:43 America/Chicago] PHP Warning:  include_once(utils.php): failed to open stream: No such file or directory in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 2
+[17-Sep-2014 13:31:43 America/Chicago] PHP Warning:  include_once(): Failed opening 'utils.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 2
+[17-Sep-2014 13:31:43 America/Chicago] PHP Fatal error:  Class 'Utils' not found in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 5
+[18-Sep-2014 14:38:12 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/vivienda.php on line 24
+[18-Sep-2014 14:38:12 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/vivienda.php on line 40
+[22-Sep-2014 15:08:00 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/vivienda.php on line 24
+[22-Sep-2014 15:08:00 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/vivienda.php on line 40
+[22-Sep-2014 15:50:46 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[22-Sep-2014 15:50:46 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 62
+[22-Sep-2014 15:50:46 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 113
+[22-Sep-2014 15:50:54 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/natalidad_mortalidad.php on line 25
+[22-Sep-2014 15:50:54 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/natalidad_mortalidad.php on line 41
+[22-Sep-2014 15:50:54 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/natalidad_mortalidad.php on line 68
+[23-Sep-2014 15:15:49 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[23-Sep-2014 15:15:49 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 62
+[23-Sep-2014 15:15:49 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 113
+[23-Sep-2014 15:15:54 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[23-Sep-2014 15:15:54 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 62
+[23-Sep-2014 15:15:54 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 113
+[24-Sep-2014 08:17:56 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[24-Sep-2014 08:17:56 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 62
+[24-Sep-2014 08:17:56 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 113
+[24-Sep-2014 08:24:53 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[24-Sep-2014 08:24:53 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 62
+[24-Sep-2014 08:24:53 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 113
+[24-Sep-2014 08:26:08 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[24-Sep-2014 08:26:08 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 62
+[24-Sep-2014 08:26:08 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 113
+[24-Sep-2014 10:20:34 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[24-Sep-2014 10:20:34 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 62
+[24-Sep-2014 10:20:34 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 113
+[24-Sep-2014 11:12:39 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[24-Sep-2014 11:12:39 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 62
+[24-Sep-2014 11:12:39 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 113
+[24-Sep-2014 17:21:23 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[24-Sep-2014 17:21:23 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[24-Sep-2014 17:21:23 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 116
+[24-Sep-2014 17:22:21 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[24-Sep-2014 17:22:21 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[24-Sep-2014 17:22:21 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 116
+[24-Sep-2014 17:22:42 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/vivienda.php on line 24
+[24-Sep-2014 17:22:42 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/vivienda.php on line 41
+[24-Sep-2014 17:22:57 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/natalidad_mortalidad.php on line 25
+[24-Sep-2014 17:22:57 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/natalidad_mortalidad.php on line 42
+[24-Sep-2014 17:22:57 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/natalidad_mortalidad.php on line 69
+[24-Sep-2014 17:23:47 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[24-Sep-2014 17:23:47 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[24-Sep-2014 17:23:47 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 116
+[24-Sep-2014 17:39:50 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[24-Sep-2014 17:39:50 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[24-Sep-2014 17:39:50 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 116
+[24-Sep-2014 20:03:45 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[24-Sep-2014 20:03:45 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[24-Sep-2014 20:03:45 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 116
+[24-Sep-2014 21:49:28 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[24-Sep-2014 21:49:28 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[24-Sep-2014 21:49:28 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 116
+[24-Sep-2014 21:49:56 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[24-Sep-2014 21:49:56 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[24-Sep-2014 21:49:56 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 116
+[24-Sep-2014 22:56:45 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[24-Sep-2014 22:56:45 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[24-Sep-2014 22:56:45 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 116
+[27-Sep-2014 09:07:22 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[27-Sep-2014 09:07:22 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[27-Sep-2014 09:07:22 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 116
+[27-Sep-2014 14:47:09 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[27-Sep-2014 14:47:09 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[27-Sep-2014 14:47:09 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 116
+[27-Sep-2014 14:48:48 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[27-Sep-2014 14:48:48 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[27-Sep-2014 14:48:48 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 116
+[27-Sep-2014 17:08:37 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[27-Sep-2014 17:08:37 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[27-Sep-2014 17:08:37 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 116
+[27-Sep-2014 17:26:21 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[27-Sep-2014 17:26:21 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[27-Sep-2014 17:26:21 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 116
+[28-Sep-2014 17:58:14 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[28-Sep-2014 17:58:14 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[28-Sep-2014 17:58:14 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 116
+[29-Sep-2014 20:29:11 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[29-Sep-2014 20:29:11 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[29-Sep-2014 20:29:11 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 116
+[01-Oct-2014 20:50:56 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[01-Oct-2014 20:50:56 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[01-Oct-2014 20:50:56 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 116
+[07-Oct-2014 13:09:52 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[07-Oct-2014 13:09:52 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[07-Oct-2014 13:09:52 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 116
+[22-Oct-2014 20:41:46 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[22-Oct-2014 20:41:46 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[22-Oct-2014 20:41:46 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 116
+[22-Oct-2014 20:41:59 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/vivienda.php on line 24
+[22-Oct-2014 20:41:59 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/vivienda.php on line 41
+[23-Oct-2014 09:31:06 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 56
+[23-Oct-2014 09:41:53 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[23-Oct-2014 09:41:53 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[23-Oct-2014 09:41:53 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 117
+[23-Oct-2014 09:42:47 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[23-Oct-2014 09:42:47 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[23-Oct-2014 09:42:47 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 117
+[23-Oct-2014 09:42:57 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/vivienda.php on line 24
+[23-Oct-2014 09:42:57 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/vivienda.php on line 41
+[23-Oct-2014 09:46:07 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[23-Oct-2014 09:46:07 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[23-Oct-2014 09:46:07 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 117
+[23-Oct-2014 09:46:27 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/natalidad_mortalidad.php on line 25
+[23-Oct-2014 09:46:27 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/natalidad_mortalidad.php on line 42
+[23-Oct-2014 09:46:27 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/natalidad_mortalidad.php on line 69
+[23-Oct-2014 09:46:31 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/economia.php on line 24
+[23-Oct-2014 09:46:31 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/economia.php on line 41
+[23-Oct-2014 09:46:31 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/economia.php on line 69
+[23-Oct-2014 09:48:50 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:48:50 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:48:50 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:48:50 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:48:50 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:48:50 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:48:50 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:48:50 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:48:50 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:48:50 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:48:50 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:48:53 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[23-Oct-2014 09:48:53 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[23-Oct-2014 09:48:53 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 117
+[23-Oct-2014 09:49:24 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:49:24 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:49:24 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:49:24 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:49:24 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:49:24 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:49:24 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:49:24 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:49:24 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:49:24 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:49:24 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:49:55 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:49:55 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:49:55 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:49:55 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:49:55 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:49:55 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:49:55 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:49:55 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:49:55 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:49:55 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:49:55 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 09:49:59 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/educacion.php on line 24
+[23-Oct-2014 09:49:59 America/Chicago] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/gioaxcom/public_html/digepo_SIG/educacion.php on line 39
+[23-Oct-2014 10:49:23 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:49:23 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:49:23 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:49:23 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:49:23 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:49:23 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:49:23 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:49:23 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:49:23 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:49:23 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:49:23 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:49:26 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[23-Oct-2014 10:49:26 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[23-Oct-2014 10:49:26 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 117
+[23-Oct-2014 10:50:55 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:50:55 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:50:55 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:50:55 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:50:55 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:50:55 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:50:55 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:50:55 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:50:55 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:50:55 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:50:55 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:50:58 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[23-Oct-2014 10:50:58 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[23-Oct-2014 10:50:58 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 117
+[23-Oct-2014 10:51:35 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:51:35 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:51:35 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:51:35 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:51:35 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:51:35 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:51:35 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:51:35 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:51:35 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:51:35 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:51:35 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:51:37 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[23-Oct-2014 10:51:37 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[23-Oct-2014 10:51:37 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 117
+[23-Oct-2014 10:53:25 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:53:25 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:53:25 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:53:25 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:53:25 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:53:25 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:53:25 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:53:25 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:53:25 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:53:25 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:53:25 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:53:27 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[23-Oct-2014 10:53:27 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[23-Oct-2014 10:53:27 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 117
+[23-Oct-2014 10:53:50 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:53:50 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:53:50 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:53:50 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:53:50 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:53:50 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:53:50 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:53:50 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:53:50 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:53:50 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:53:50 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 10:53:52 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[23-Oct-2014 10:53:52 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[23-Oct-2014 10:53:52 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 117
+[23-Oct-2014 11:06:31 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:06:31 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:06:31 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:06:31 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:06:31 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:06:31 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:06:31 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:06:31 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:06:31 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:06:31 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:06:31 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:08:21 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:08:21 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:08:21 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:08:21 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:08:21 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:08:21 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:08:21 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:08:21 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:08:21 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:08:21 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:08:21 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:08:25 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[23-Oct-2014 11:08:25 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[23-Oct-2014 11:08:25 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 117
+[23-Oct-2014 11:09:41 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:09:41 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:09:41 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:09:41 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:09:41 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:09:41 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:09:41 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:09:41 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:09:41 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:09:41 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:09:41 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:09:46 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[23-Oct-2014 11:09:46 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[23-Oct-2014 11:09:46 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 117
+[23-Oct-2014 11:11:03 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[23-Oct-2014 11:11:03 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[23-Oct-2014 11:11:03 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 117
+[23-Oct-2014 11:11:09 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:11:09 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:11:09 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:11:09 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:11:09 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:11:09 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:11:09 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:11:09 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:11:09 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:11:09 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:11:09 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:11:12 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[23-Oct-2014 11:11:12 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[23-Oct-2014 11:11:12 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 117
+[23-Oct-2014 11:11:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/natalidad_mortalidad.php on line 25
+[23-Oct-2014 11:11:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/natalidad_mortalidad.php on line 42
+[23-Oct-2014 11:11:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/natalidad_mortalidad.php on line 69
+[23-Oct-2014 11:23:12 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:23:12 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:23:12 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:23:12 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:23:12 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:23:12 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:23:12 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:23:12 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:23:12 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:23:12 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:23:12 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:23:17 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[23-Oct-2014 11:23:17 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[23-Oct-2014 11:23:17 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 117
+[23-Oct-2014 11:24:02 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/vivienda.php on line 24
+[23-Oct-2014 11:24:02 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/vivienda.php on line 41
+[23-Oct-2014 11:24:07 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:24:07 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:24:07 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:24:07 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:24:07 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:24:07 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:24:07 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:24:07 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:24:07 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:24:07 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:24:07 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:24:11 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[23-Oct-2014 11:24:11 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[23-Oct-2014 11:24:11 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 117
+[23-Oct-2014 11:25:45 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:25:45 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:25:45 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:25:45 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:25:45 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:25:45 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:25:45 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:25:45 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:25:45 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:25:45 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:25:45 America/Chicago] PHP Warning:  mcrypt_generic(): An empty string was passed in /home/gioaxcom/public_html/digepo_SIG/data.php on line 144
+[23-Oct-2014 11:25:49 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[23-Oct-2014 11:25:49 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[23-Oct-2014 11:25:49 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 117
+[23-Oct-2014 11:25:53 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/economia.php on line 24
+[23-Oct-2014 11:25:53 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/economia.php on line 41
+[23-Oct-2014 11:25:53 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/economia.php on line 69
+[23-Oct-2014 11:44:07 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[23-Oct-2014 11:44:07 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[23-Oct-2014 11:44:07 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 117
+[24-Oct-2014 17:20:01 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[24-Oct-2014 17:20:01 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[24-Oct-2014 17:20:01 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 117
+[24-Oct-2014 17:20:02 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[24-Oct-2014 17:20:02 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[24-Oct-2014 17:20:02 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 117
+[24-Oct-2014 17:20:05 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[24-Oct-2014 17:20:05 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[24-Oct-2014 17:20:05 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 117
+[24-Oct-2014 17:20:13 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[24-Oct-2014 17:20:13 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[24-Oct-2014 17:20:13 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 117
+[24-Oct-2014 17:20:17 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[24-Oct-2014 17:20:17 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[24-Oct-2014 17:20:17 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 117
+[24-Oct-2014 17:20:26 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/natalidad_mortalidad.php on line 25
+[24-Oct-2014 17:20:26 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/natalidad_mortalidad.php on line 42
+[24-Oct-2014 17:20:26 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/natalidad_mortalidad.php on line 69
+[24-Oct-2014 17:20:28 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/natalidad_mortalidad.php on line 25
+[24-Oct-2014 17:20:28 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/natalidad_mortalidad.php on line 42
+[24-Oct-2014 17:20:28 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/natalidad_mortalidad.php on line 69
+[24-Oct-2014 17:20:34 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/natalidad_mortalidad.php on line 25
+[24-Oct-2014 17:20:34 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/natalidad_mortalidad.php on line 42
+[24-Oct-2014 17:20:34 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/natalidad_mortalidad.php on line 69
+[28-Oct-2014 10:12:25 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/educacion.php on line 24
+[28-Oct-2014 10:12:25 America/Chicago] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/gioaxcom/public_html/digepo_SIG/educacion.php on line 39
+[31-Oct-2014 01:30:14 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 24
+[31-Oct-2014 01:30:14 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 65
+[31-Oct-2014 01:30:14 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/gioaxcom/public_html/digepo_SIG/poblacion.php on line 117

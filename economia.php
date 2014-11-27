@@ -42,16 +42,16 @@ if ($_GET) {
 		$datos["datos"] .= "<table width='100%'>";
 		$datos["datos"] .= "<tr align='center'><td colspan='4'><strong>Poblaci&oacute;n de 12 a&ntilde;os y m&aacute;s.</strong></td></tr>";
 		$datos["datos"] .= "<tr><td></td><td align='center'><strong>Total</strong></td><td align='center'><strong>Hombres</strong></td><td align='center'><strong>Mujeres</strong></td></tr>";
-		$datos["datos"] .= "<tr><td><strong>Econ&oacute;micamente activa</strong></td><td align='center'>".$row[0]."</td><td align='center'>".$row[1]."</td><td align='center'>".$row[2]."</td></tr>";
-		$datos["datos"] .= "<tr><td>Ocupada</td><td align='center'>".$row[3]."</td><td align='center'>".$row[4]."</td><td align='center'>".$row[5]."</td></tr>";
-		$datos["datos"] .= "<tr><td>Desocupada</td><td align='center'>".$row[6]."</td><td align='center'>".$row[7]."</td><td align='center'>".$row[8]."</td></tr>";
+		$datos["datos"] .= "<tr><td><strong>Econ&oacute;micamente activa</strong></td><td align='right'>".$row[0]."</td><td align='right'>".$row[1]."</td><td align='right'>".$row[2]."</td></tr>";
+		$datos["datos"] .= "<tr><td>Ocupada</td><td align='right'>".$row[3]."</td><td align='right'>".$row[4]."</td><td align='right'>".$row[5]."</td></tr>";
+		$datos["datos"] .= "<tr><td>Desocupada</td><td align='right'>".$row[6]."</td><td align='right'>".$row[7]."</td><td align='right'>".$row[8]."</td></tr>";
 		$datos["datos"] .= "</table>";
 		$datos["datos"] .= "<p align='justify'>De cada 100 personas de 12 a&ntilde;os y m&aacute;s, ".round($row[0])." participan en las actividades econ&oacute;micas, de cada 100 de estas personas ".round($row[3])." tienen alguna ocupaci&oacute;n.</p>";
 		$datos["datos"] .= "<table width='100%'>";
 		$datos["datos"] .= "<tr><td></td><td align='center'><strong>Total</strong></td><td align='center'><strong>Hombres</strong></td><td align='center'><strong>Mujeres</strong></td></tr>";
-		$datos["datos"] .= "<tr><td><strong>No econ&oacute;micamente activa</strong></td><td align='center'>".$row[9]."</td><td align='center'>".$row[10]."</td><td align='center'>".$row[11]."</td>";
+		$datos["datos"] .= "<tr><td><strong>No econ&oacute;micamente activa</strong></td><td align='right'>".$row[9]."</td><td align='right'>".$row[10]."</td><td align='right'>".$row[11]."</td>";
 		$datos["datos"] .= "<tr><td></td><td align='center'><strong>Total</strong></td><td align='center'><strong>Hombres</strong></td><td align='center'><strong>Mujeres</strong></td></tr>";
-		$datos["datos"] .= "<tr><td><strong>Condici&oacute;n de actividad no especificada</strong></td><td align='center'>".$row[12]."</td><td align='center'>".$row[13]."</td><td align='center'>".$row[14]."</td>";
+		$datos["datos"] .= "<tr><td><strong>Condici&oacute;n de actividad no especificada</strong></td><td align='right'>".$row[12]."</td><td align='right'>".$row[13]."</td><td align='right'>".$row[14]."</td>";
 		$datos["datos"] .= "</table>";
 		
 
@@ -69,11 +69,11 @@ if ($_GET) {
 	foreach($result as $row) {
 		$datos["datos"] .= "</br><hr/><br><table width='100%'>";
 		$datos["datos"] .= "<tr><td align='center'><strong>Distribuci&oacute;n de la poblaci&oacute;n de 12 a&ntilde;os y m&aacute;s no econ&oacute;micamente activa.</strong></td><td align='center'><strong>Total</strong></td><td align='center'><strong>Hombres</strong></td><td align='center'><strong>Mujeres</strong></td></tr>";
-		$datos["datos"] .= "<tr><td>Pensionados o jubilados</td><td align='center'>".$row[0]."</td><td align='center'>".$row[1]."</td><td align='center'>".$row[2]."</td></tr>";
-		$datos["datos"] .= "<tr><td>Estudiantes</td><td align='center'>".$row[3]."</td><td align='center'>".$row[4]."</td><td align='center'>".$row[5]."</td></tr>";
-		$datos["datos"] .= "<tr><td>Personas dedicadas al hogar</td><td align='center'>".$row[6]."</td><td align='center'>".$row[7]."</td><td align='center'>".$row[8]."</td></tr>";
-		$datos["datos"] .= "<tr><td><small>Personas con alguna limitaci&oacute;n fisica o mental pernamente que les impide trabajar</small></td><td align='center'>".$row[9]."</td><td align='center'>".$row[10]."</td><td align='center'>".$row[11]."</td></tr>";
-		$datos["datos"] .= "<tr><td>Personas en otras actividades econ&oacute;micas</td><td align='center'>".$row[12]."</td><td align='center'>".$row[13]."</td><td align='center'>".$row[14]."</td></tr>";
+		$datos["datos"] .= "<tr><td>Pensionados o jubilados</td><td align='right'>".$row[0]."</td><td align='right'>".$row[1]."</td><td align='right'>".$row[2]."</td></tr>";
+		$datos["datos"] .= "<tr><td>Estudiantes</td><td align='right'>".$row[3]."</td><td align='right'>".$row[4]."</td><td align='right'>".$row[5]."</td></tr>";
+		$datos["datos"] .= "<tr><td>Personas dedicadas al hogar</td><td align='right'>".$row[6]."</td><td align='right'>".$row[7]."</td><td align='right'>".$row[8]."</td></tr>";
+		$datos["datos"] .= "<tr><td><small>Personas con alguna limitaci&oacute;n fisica o mental pernamente que les impide trabajar</small></td><td align='right'>".$row[9]."</td><td align='right'>".$row[10]."</td><td align='right'>".$row[11]."</td></tr>";
+		$datos["datos"] .= "<tr><td>Personas en otras actividades econ&oacute;micas</td><td align='right'>".$row[12]."</td><td align='right'>".$row[13]."</td><td align='right'>".$row[14]."</td></tr>";
 		$datos["datos"] .= "</table>";
 	}
 	$datos["datos"] .= "</body></html>";

@@ -41,13 +41,13 @@ if ($_GET) {
 	foreach($result as $row) {
 		$datos["datos"] .= "<table width='100%'>";
 		$datos["datos"] .= "<tr><td colspan='2' align='center'><strong>Poblaci&oacute;n de 12 a&ntilde;os y m&aacute;s seg&uacute;n situaci&oacute;n conyugal.</strong></td></tr>";
-		$datos["datos"] .= "<tr><td> Soltera</td><td>".$row[0]."%</td></tr>";
-		$datos["datos"] .= "<tr><td> Casada</td><td>".$row[1]."%</td></tr>";
-		$datos["datos"] .= "<tr><td> En uni&oacute;n libre</td><td>".$row[2]."%</td></tr>";
-		$datos["datos"] .= "<tr><td> Separada</td><td>".$row[3]."%</td></tr>";
-		$datos["datos"] .= "<tr><td> Divorciada</td><td>".$row[4]."%</td></tr>";
-		$datos["datos"] .= "<tr><td> Viuda</td><td>".$row[5]."%</td></tr>";
-		$datos["datos"] .= "<tr><td> No especificado</td><td>".$row[6]."%</td></tr>";
+		$datos["datos"] .= "<tr><td> Soltera</td><td align='right'>".$row[0]."%</td></tr>";
+		$datos["datos"] .= "<tr><td> Casada</td><td align='right'>".$row[1]."%</td></tr>";
+		$datos["datos"] .= "<tr><td> En uni&oacute;n libre</td><td align='right'>".$row[2]."%</td></tr>";
+		$datos["datos"] .= "<tr><td> Separada</td><td align='right'>".$row[3]."%</td></tr>";
+		$datos["datos"] .= "<tr><td> Divorciada</td><td align='right'>".$row[4]."%</td></tr>";
+		$datos["datos"] .= "<tr><td> Viuda</td><td align='right'>".$row[5]."%</td></tr>";
+		$datos["datos"] .= "<tr><td> No especificado</td><td align='right'>".$row[6]."%</td></tr>";
 		$datos["datos"] .= "</table></br><hr></br><table width='100%'>";
 		$datos["datos"] .= "<tr align='center'><td></td><td><strong>Total</strong></td><td><strong>Hombres</strong></td><td><strong>Mujeres</strong></td></tr>";
 		$datos["datos"] .= "<tr><td><strong>Poblaci&oacute;n de 12 a&ntilde;os y m&aacute;s</strong></td><td align='center'>".$row[7]."</td><td align='center'>".$row[8]."</td><td align='center'>".$row[9]."</td></tr>";

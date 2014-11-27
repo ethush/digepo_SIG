@@ -44,9 +44,9 @@ if ($_GET) {
 	foreach($result as $row) {
 		$datos["datos"] .= "<table width='100%'>";
 		$datos["datos"] .= "<tr><td></td><td><strong>Total</strong></td><td><strong>Hombres</strong></td><td><strong>Mujeres</strong></td></tr>";
-		$datos["datos"] .= "<tr><td><strong>Poblaci&oacute;n de 3 a&ntilde;os y m&aacute;s que habla lengua indigena</strong></td><td valign='top' align='center'>".$row[0]."</td><td valign='top' align='center'>".$row[1]."</td><td valign='top' align='center'>".$row[2]."</td></tr>";
-		$datos["datos"] .= "<tr><td><small>Hay ".$row[0]." personas mayores de 3 a&ntilde;os que hablan alguna lengua indigena, lo que representa el ".round(str_replace("%", "", $row[3]))."% de la poblaci&oacute;n de 3 a&ntilde;os y m&aacute;s.</small></td><td valign='bottom' align='center'>".$row[3]."</td><td valign='bottom' align='center'>".$row[4]."</td><td valign='bottom' align='center'>".$row[5]."</td></tr>";
-		$datos["datos"] .= "<tr><td><strong>Poblaci&oacute;n de 3 a&ntilde;os y m&aacute;s que habla lengua indigena y espa&ntilde;ol</strong></td><td align='center'>".$row[6]."</td><td align='center'>".$row[7]."</td><td align='center'>".$row[8]."</td></tr>";
+		$datos["datos"] .= "<tr><td><strong>Poblaci&oacute;n de 3 a&ntilde;os y m&aacute;s que habla lengua indigena</strong></td><td valign='top' align='right'>".$row[0]."</td><td valign='top' align='right'>".$row[1]."</td><td valign='top' align='right'>".$row[2]."</td></tr>";
+		$datos["datos"] .= "<tr><td><small>Hay ".$row[0]." personas mayores de 3 a&ntilde;os que hablan alguna lengua indigena, lo que representa el ".round(str_replace("%", "", $row[3]))."% de la poblaci&oacute;n de 3 a&ntilde;os y m&aacute;s.</small></td><td valign='bottom' align='right'>".$row[3]."</td><td valign='bottom' align='right'>".$row[4]."</td><td valign='bottom' align='right'>".$row[5]."</td></tr>";
+		$datos["datos"] .= "<tr><td><strong>Poblaci&oacute;n de 3 a&ntilde;os y m&aacute;s que habla lengua indigena y espa&ntilde;ol</strong></td><td align='right'>".$row[6]."</td><td align='right'>".$row[7]."</td><td align='right'>".$row[8]."</td></tr>";
 		
 		$datos["datos"] .= "</table>";
 		$datos["datos"] .= "<p align='justify'>De cada 100 personas mayores de 3 a&ntilde;os, el ".round(str_replace("%", "", $row[3]))."% hablan alguna lengua ind&iacute;gena; del 100% de estas personas, el ".round(str_replace("%", "", $row[6]))."% tambi&eacute;n habla espa&ntilde;ol.</p>";

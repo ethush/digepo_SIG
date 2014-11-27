@@ -65,38 +65,39 @@ if ($_GET) {
 	foreach($result as $row) {
 		
 		$datos["datos"] .= "<table width='100%'>";
-		$datos["datos"] .= "<tr><td><strong>Poblacion total:</strong></td><td><strong> ".$row[0] ."</strong> </td></tr>";
+		$datos["datos"] .= "<tr><td><strong>Poblacion total:</strong></td><td align='right'><strong> ".$row[0] ."</strong> </td></tr>";
 		$datos["datos"] .= "<tr><td colspan='2' >Representa el ".$row[1] ." de la poblaci&oacute;n del estado.</td></tr>";
-		$datos["datos"] .= "<tr><td><strong>Relaci&oacute;n hombres-mujeres: </strong></td><td ><strong>" .$row[4]. "</strong</td></tr>";
+		$datos["datos"] .= "<tr><td><strong>Relaci&oacute;n hombres-mujeres: </strong></td><td align='right' ><strong>" .$row[4]. "</strong</td></tr>";
 		$datos["datos"] .= "<tr><td colspan='2'>Por cada 100 mujeres hay ".round($row[4]). " hombres.</td></tr>" ;
-		$datos["datos"] .= "<tr><td><strong>Edad mediana:</strong></td><td><strong>".$row[3] ."</strong></td></tr>";
+		$datos["datos"] .= "<tr><td><strong>Edad mediana:</strong></td><td align='right'><strong>".$row[3] ."</strong></td></tr>";
 		$datos["datos"] .= "<tr><td colspan='2'>La mitad de la poblaci&oacute;n es menor de ".$row[3]. " a&ntilde;os.</td></tr>";
-		$datos["datos"] .= "<tr><td><strong>Raz&oacute;n de dependencia econ&oacute;mica: </strong></td><td><strong>".$row[2]."</strong></td></tr>";
+		$datos["datos"] .= "<tr><td><strong>Raz&oacute;n de dependencia econ&oacute;mica: </strong></td><td align='right'><strong>".$row[2]."</strong></td></tr>";
 		$datos["datos"] .= "<tr><td colspan='2'>Por cada 100 personas hay ".round(str_replace("%","", $row[2])) ." en edad de dependencia (menores de 15 a&ntilde;os o mayores de 64 a&ntilde;os). </strong></td></tr></table>";
 		
 
 		/*Consulta de edades por sexo del municipio*/
 		$sql = 'select total from municipios_edades where municipio like "%'.$nombre_municipio.'%" and grupo like "%Total%"';
+
 		$res = $db->query($sql);
       	$res_total = $res->fetchAll();
       	$datos["datos"] .= "<hr><h3>Composici&oacute;n por edad y sexo.</h3>";
-   		$datos["datos"] .= "<table width='100%'><tr style='background:gray;'><td ><strong>Total Mujeres:</strong></td><td><strong>".$res_total[1][0]."</strong></td></tr>";
+   		$datos["datos"] .= "<table width='100%'><tr style='background:gray;'><td ><strong>Total Mujeres:</strong></td><td align='right'><strong>".$res_total[1][0]."</strong></td></tr>";
 
    		/* Consulta de rango de edades de mujeres. */
    		$sql = 'select grupo, total from municipios_edades where  municipio like "%'.$nombre_municipio.'%" and sexo = "Mujeres" and grupo not like "%Total%"';
    		$res = $db->query($sql);
    		foreach($res as $muj ) {
    			$rango = str_replace("ñ", "&ntilde;", utf8_encode($muj[0]));
-   			$datos["datos"] .= 	"<tr><td>".$rango."</td><td>".$muj[1]."</td></tr>";
+   			$datos["datos"] .= 	"<tr><td>".$rango."</td><td align='right'>".$muj[1]."</td></tr>";
    		}
-   		$datos["datos"] .= "<tr style='background:gray;'><td><strong>Total Hombres:</strong></td><td><strong>".$res_total[0][0]."</strong></td></tr>";
+   		$datos["datos"] .= "<tr style='background:gray;'><td><strong>Total Hombres:</strong></td><td align='right'><strong>".$res_total[0][0]."</strong></td></tr>";
    		
    		/* Consulta de rango de edades por hombres*/
    		$sql = 'select grupo, total from municipios_edades where  municipio like "%'.$nombre_municipio.'%" and sexo = "Hombres" and grupo not like "%Total%"';
    		$res = $db->query($sql);
    		foreach($res as $hom ) {
    			$rango = str_replace("ñ", "&ntilde;", utf8_encode($hom[0]));
-   			$datos["datos"] .= 	"<tr><td>".$rango."</td><td>".$hom[1]."</td></tr>";
+   			$datos["datos"] .= 	"<tr><td>".$rango."</td><td align='right'>".$hom[1]."</td></tr>";
    		}
    		
    		$datos["datos"] .= "</table>";
@@ -116,13 +117,13 @@ if ($_GET) {
 	foreach($result as $row) {
 		//Seccion de intensidad migratoria
 		$datos["datos"] .= "<h4><strong>-&Iacute;ndice y grado de intensidad migratoria.</strong></h4>";
-		$datos["datos"] .= "<table width='100%'><tr><td><strong>Total de hogares:</strong></td><td> ".$row[0]."</td></tr>";
-		$datos["datos"] .= "<tr><td><strong>% Hogares que reciben remesas: </strong></td><td>".$row[1]."</td></tr>";
-		$datos["datos"] .= "<tr><td><strong>% Hogares con emigrantes en Estados Unidos del quinquenio anterior:</strong></td><td>".$row[2]."</td></tr>";
-		$datos["datos"] .= "<tr><td><strong>% Hogares con migrantes circulares del quinquenio anterior:</strong></td><td>".$row[3]."</td></tr>";
-		$datos["datos"] .= "<tr><td><strong>% Hogares con migrantes de retorno del quinquenio anterior:</strong></td><td>".$row[4]."</td></tr>";
-		$datos["datos"] .= "<tr><td><strong>&Iacute;ndice de intensidad migratoria:</strong></td><td>".$row[5]."</td></tr>";
-		$datos["datos"] .= "<tr><td><strong>Grado de intensidad migratoria:</strong></ul></td><td>".$row[6]."</td></tr>";
+		$datos["datos"] .= "<table width='100%'><tr><td><strong>Total de hogares:</strong></td><td align='right'> ".$row[0]."</td></tr>";
+		$datos["datos"] .= "<tr><td><strong>% Hogares que reciben remesas: </strong></td><td align='right'>".$row[1]."</td></tr>";
+		$datos["datos"] .= "<tr><td><strong>% Hogares con emigrantes en Estados Unidos del quinquenio anterior:</strong></td><td align='right'>".$row[2]."</td></tr>";
+		$datos["datos"] .= "<tr><td><strong>% Hogares con migrantes circulares del quinquenio anterior:</strong></td><td align='right'>".$row[3]."</td></tr>";
+		$datos["datos"] .= "<tr><td><strong>% Hogares con migrantes de retorno del quinquenio anterior:</strong></td><td align='right'>".$row[4]."</td></tr>";
+		$datos["datos"] .= "<tr><td><strong>&Iacute;ndice de intensidad migratoria:</strong></td><td align='right'>".$row[5]."</td></tr>";
+		$datos["datos"] .= "<tr><td><strong>Grado de intensidad migratoria:</strong></ul></td><td align='right'>".$row[6]."</td></tr>";
 	}
 	
 

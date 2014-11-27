@@ -53,18 +53,23 @@ if($_GET){
 		if ($datos != null) addData($datos);
 		else error();
 	}
-	else if ($get_vecindario != ""){
-		$sql = 'SELECT municipio, region, ruta_datos, id FROM municipios WHERE municipio LIKE "%'.utf8_decode($get_vecindario).'%"'; 
-		$result = $db->query($sql);
+	else if ($get_vecindario != 'Dalvik' && $get_vecindario != ""){
+		//$sql = 'SELECT municipio, region, ruta_datos, id FROM municipios WHERE municipio LIKE "%'.utf8_decode($get_vecindario).'%"'; 
+		/*Si no se detecto una localidad, hacemos una consulta para buscarla en la lista de coincidencias y mostrar los municipios coindicentes*/
+		//$result = $db->query($sql);
 		//echo $sql."<br>";
-		foreach($result as $row){
-			$datos[] = $row[0]; //municipio
-			$datos[] = $row[1]; //region
-			$datos[] = $row[2]; //ruta_datos
-			$datos[] = $row[3]; //id municipio
-		}
-		if ($datos) addData($datos);
-		else error();
+		//foreach($result as $row){
+		//	$datos[] = $row[0]; //municipio
+		//	$datos[] = $row[1]; //region
+		//	$datos[] = $row[2]; //ruta_datos
+		//	$datos[] = $row[3]; //id municipio
+		//}
+		//if ($datos) addData($datos);
+		//else error();
+		$datos["municipios"] = "Municipio1,localidad1;Municipio2,localidad2;Municipio3,localidad3;Municipio4,localidad4;Municipio5,localidad5;";
+		$datos["result"] = "OK";
+		$datos["error_msg"] = "Datos Coincidentes";
+		echo json_encode($datos);
 	}
 	else error(); 
 }
@@ -98,6 +103,20 @@ function addData($datos){
 	$detalles["doc10"] = $mcrypt->encrypt($ruta_url. "10.pdf");
 	$detalles["doc11"] = $mcrypt->encrypt($ruta_url. "/11.pdf");
 	
+	/*URL con las graficas del municipio*/
+	/*$detalles["doc1"] = $mcrypt->encrypt("");
+	$detalles["doc2"] = $mcrypt->encrypt("");
+	$detalles["doc3"] = $mcrypt->encrypt("");
+	$detalles["doc4"] = $mcrypt->encrypt("");
+	$detalles["doc5"] = $mcrypt->encrypt("");
+	$detalles["doc6"] = $mcrypt->encrypt("");
+	$detalles["doc7"] = $mcrypt->encrypt("");
+	$detalles["doc8"] = $mcrypt->encrypt("");
+	$detalles["doc9"] = $mcrypt->encrypt("");
+	$detalles["doc10"] = $mcrypt->encrypt("");
+	$detalles["doc11"] = $mcrypt->encrypt("");
+	*/
+
 	$detalles["msg_error"] = "Datos cargados.";
 	$detalles["result"] = "OK";
 

@@ -51,8 +51,8 @@ if ($_GET) {
 								<td align='center'><strong>Hombres</strong></td>
 								<td align='center'><strong>Mujeres</strong></td>
 							</tr>";
-		$datos["datos"] .= "<tr align='center'><td> 15-24 a&ntilde;os</td><td>".$row[0]."</td><td>".$row[1]."</td><td>".$row[2]."<td></tr>";
-		$datos["datos"] .= "<tr align='center'><td> 25 y m&aacute;s a&ntilde;os</td><td>".$row[3]."</td><td>".$row[4]."</td><td>".$row[5]."<td></tr>";
+		$datos["datos"] .= "<tr align='center'><td> 15-24 a&ntilde;os</td><td align='right'>".$row[0]."</td><td align='right'>".$row[1]."</td><td align='right'>".$row[2]."<td></tr>";
+		$datos["datos"] .= "<tr align='center'><td> 25 y m&aacute;s a&ntilde;os</td><td align='right'>".$row[3]."</td><td align='right'>".$row[4]."</td><td align='right'>".$row[5]."<td></tr>";
 		$datos["datos"] .= "</table><p align='justify'>De cada 100 personas entre 15 y 24 a&ntilde;os de edad, saben leer y escribir. De estos 100, el ".round(str_replace("%", "", $row[1]))."%  son hombres y ".round(str_replace("%", "", $row[2]))."% son mujeres. </p></body></html>";
 
 	}
@@ -97,7 +97,7 @@ if ($_GET) {
 	$total = ($total_asiste != 0 && $total_habitantes !=0) ? ($total_asiste/$total_habitantes)*100 : 0;
 	$asiste_hombre = ($hombres_asiste != 0 && $total_asiste != 0) ? ($hombres_asiste/$total_asiste)*100 : 0;
 	$asiste_mujer =  ($mujeres_asiste != 0 && $total_asiste != 0) ? ($mujeres_asiste/$total_asiste)*100 : 0;
-	$datos["datos"] .= "<tr align='center'><td width='40%'>3 - 5 a&ntilde;os</td><td>" .round($total,2). "%</td><td>". round($asiste_hombre,2)."%</td><td>".round($asiste_mujer,2)."%</td></tr>";
+	$datos["datos"] .= "<tr align='center'><td width='40%'>3 - 5 a&ntilde;os</td><td align='right'>" .round($total,2). "%</td><td align='right'>". round($asiste_hombre,2)."%</td><td align='right'>".round($asiste_mujer,2)."%</td></tr>";
 
 
 	$total_habitantes = operacion($rango_b,$parametros[0],$nombre_municipio,$db);
@@ -107,7 +107,7 @@ if ($_GET) {
 	$total = ($total_asiste != 0 && $total_habitantes !=0) ? ($total_asiste/$total_habitantes)*100 : 0;
 	$asiste_hombre = ($hombres_asiste != 0 && $total_asiste != 0) ? ($hombres_asiste/$total_asiste)*100 : 0;
 	$asiste_mujer =  ($mujeres_asiste != 0 && $total_asiste != 0) ? ($mujeres_asiste/$total_asiste)*100 : 0;
-	$datos["datos"] .= "<tr align='center'><td width='40%'>6 - 11 a&ntilde;os</td><td>" .round($total,2). "%</td><td>". round($asiste_hombre,2)."%</td><td>".round($asiste_mujer,2)."%</td></tr>";
+	$datos["datos"] .= "<tr align='center'><td width='40%'>6 - 11 a&ntilde;os</td><td align='right'>" .round($total,2). "%</td><td align='right'>". round($asiste_hombre,2)."%</td><td align='right'>".round($asiste_mujer,2)."%</td></tr>";
 
 
 	$total_habitantes = operacion($rango_c,$parametros[0],$nombre_municipio,$db);
@@ -117,7 +117,7 @@ if ($_GET) {
 	$total = ($total_asiste != 0 && $total_habitantes !=0) ? ($total_asiste/$total_habitantes)*100 : 0;
 	$asiste_hombre = ($hombres_asiste != 0 && $total_asiste != 0) ? ($hombres_asiste/$total_asiste)*100 : 0;
 	$asiste_mujer =  ($mujeres_asiste != 0 && $total_asiste != 0) ? ($mujeres_asiste/$total_asiste)*100 : 0;
-	$datos["datos"] .= "<tr align='center'><td width='40%'>6 - 11 a&ntilde;os</td><td>" .round($total,2). "%</td><td>". round($asiste_hombre,2)."%</td><td>".round($asiste_mujer,2)."%</td></tr>";
+	$datos["datos"] .= "<tr align='center'><td width='40%'>6 - 11 a&ntilde;os</td><td align='right'>" .round($total,2). "%</td><td align='right'>". round($asiste_hombre,2)."%</td><td align='right'>".round($asiste_mujer,2)."%</td></tr>";
 
 
 	$total_habitantes = operacion($rango_d,$parametros[0],$nombre_municipio,$db);
@@ -127,7 +127,7 @@ if ($_GET) {
 	$total = ($total_asiste != 0 && $total_habitantes !=0) ? ($total_asiste/$total_habitantes)*100 : 0;
 	$asiste_hombre = ($hombres_asiste != 0 && $total_asiste != 0) ? ($hombres_asiste/$total_asiste)*100 : 0;
 	$asiste_mujer =  ($mujeres_asiste != 0 && $total_asiste != 0) ? ($mujeres_asiste/$total_asiste)*100 : 0;
-	$datos["datos"] .= "<tr align='center'><td width='40%'>15 - 24 a&ntilde;os</td><td>" .round($total,2). "%</td><td>". round($asiste_hombre,2)."%</td><td>".round($asiste_mujer,2)."%</td></tr>";
+	$datos["datos"] .= "<tr align='center'><td width='40%'>15 - 24 a&ntilde;os</td><td align='right'>" .round($total,2). "%</td><td align='right'>". round($asiste_hombre,2)."%</td><td align='right'>".round($asiste_mujer,2)."%</td></tr>";
 	$datos["datos"] .= "</table>";
 	$datos["datos"] .= "<p align='justify'>De cada 100 personas entre 15 y 24 a&ntilde;os, ".round($total,0)." asisten a la escuela.</p>";
 	echo json_encode($datos);

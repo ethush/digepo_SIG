@@ -47,17 +47,17 @@ if ($_GET) {
 	foreach($result as $row) {
 		$datos["datos"] .= "<table width='100%'>";
 		$datos["datos"] .= "<tr><td></td><td><strong>Total</strong></td><td><strong>Hombres</strong></td><td><strong>Mujeres</strong></td></tr>";
-		$datos["datos"] .= "<tr><td><strong>Poblaci&oacute;n con alguna religi&oacute;n</strong></td><td align='center'>".$row[0]."</td><td align='center'>".$row[1]."</td><td align='center'>".$row[2]."</td></tr>";
-		$datos["datos"] .= "<tr><td>De cada 100 personas, ".round($row[3])." pertenecen a alguna religi&oacute;n, de los cuales; ".round($row[4])." son hombres y ".round($row[5])." son mujeres </td><td align='center'>".$row[3]."</td><td align='center'>".$row[4]."</td><td align='center'>".$row[5]."</td></tr>";
+		$datos["datos"] .= "<tr><td><strong>Poblaci&oacute;n con alguna religi&oacute;n</strong></td><td align='right'>".$row[0]."</td><td align='right'>".$row[1]."</td><td align='right'>".$row[2]."</td></tr>";
+		$datos["datos"] .= "<tr><td>De cada 100 personas, ".round($row[3])." pertenecen a alguna religi&oacute;n, de los cuales; ".round($row[4])." son hombres y ".round($row[5])." son mujeres </td><td align='right'>".$row[3]."</td><td align='right'>".$row[4]."</td><td align='right'>".$row[5]."</td></tr>";
 		
 		$datos["datos"] .= "<tr><td align='center'><strong>Religiones m&aacute;s frecuentes</strong></td><td><strong>Total</strong></td><td><strong>Hombres</strong></td><td><strong>Mujeres</strong></td></tr>";
 		
-		$datos["datos"] .= "<tr><td>Cat&oacute;lica</td><td>".$row[6]."</td><td align='center'> - </td><td align='center'> - </td></tr>";
-		$datos["datos"] .= "<tr><td></td><td>".$row[7]."</td><td align='center'> - </td><td align='center'> - </td></tr>";
-		$datos["datos"] .= "<tr><td>Protestantes y Evang&eacute;licas</td><td>".$row[8]."</td><td align='center'> - </td><td align='center'> - </td></tr>";
-		$datos["datos"] .= "<tr><td></td><td>".$row[9]."</td><td align='center'> - </td><td align='center'> - </td></tr>";
-		$datos["datos"] .= "<tr><td>B&iacute;blicas diferentes de Evang&eacute;licas.</td><td>".$row[10]."</td><td align='center'> - </td><td align='center'> - </td></tr>";
-		$datos["datos"] .= "<tr><td></td><td>".$row[11]."</td><td align='center'> - </td><td align='center'> - </td></tr>";
+		$datos["datos"] .= "<tr><td>Cat&oacute;lica</td><td align='right'>".$row[6]."</td><td align='center'> - </td><td align='center'> - </td></tr>";
+		$datos["datos"] .= "<tr><td></td><td align='right'>".$row[7]."</td><td align='center'> - </td><td align='center'> - </td></tr>";
+		$datos["datos"] .= "<tr><td>Protestantes y Evang&eacute;licas</td><td align='right'>".$row[8]."</td><td align='center'> - </td><td align='center'> - </td></tr>";
+		$datos["datos"] .= "<tr><td></td><td align='right'>".$row[9]."</td><td align='center'> - </td><td align='center'> - </td></tr>";
+		$datos["datos"] .= "<tr><td>B&iacute;blicas diferentes de Evang&eacute;licas.</td><td align='right'>".$row[10]."</td><td align='center'> - </td><td align='center'> - </td></tr>";
+		$datos["datos"] .= "<tr><td></td><td align='right'>".$row[11]."</td><td align='center'> - </td><td align='center'> - </td></tr>";
 		
 		$datos["datos"] .= "</table>";
 		$datos["datos"] .= "<p align='justify'>De cada 100 personas, ".round($row[7])." son cat&oacute;licas.</p>";
