@@ -52,11 +52,11 @@ if ($_GET) {
 		$datos["datos"] .= "<table width='100%'>";
 		$datos["datos"] .= "<tr><td align='center'><strong>Poblaci&oacute;n</strong></td><td align='center'><strong>Total</strong></td><td align='center'><strong>Hombres</strong></td><td align='center'><strong>Mujeres</strong></td></tr>";
 		$datos["datos"] .= "<tr><td><strong>Derechohabiente</strong></td><td align='right'>".$row[0]."%</td><td align='right'>".$row[1]."</td><td align='right'>".$row[2]."</td></tr>";
-		$datos["datos"] .= "<tr><td>IMMS</td><td align='right'>".$row[3]."%</td><td align='right'>".$row[4]."</td><td align='right'>".$row[5]."</td></tr>";
+		$datos["datos"] .= "<tr><td>IMSS</td><td align='right'>".$row[3]."%</td><td align='right'>".$row[4]."</td><td align='right'>".$row[5]."</td></tr>";
 		$datos["datos"] .= "<tr><td>ISSSTE</td><td align='right'>".$row[6]."%</td><td align='right'>".$row[7]."</td><td align='right'>".$row[8]."</td></tr>";
 		$datos["datos"] .= "<tr><td>Pemex, Defensa o Marina</td><td align='right'>".$row[9]."%</td><td align='right'>".$row[10]."</td><td align='right'>".$row[11]."</td></tr>";
 		$datos["datos"] .= "<tr><td>Seguro popular o para una nueva generaci&oacute;n</td><td align='right'>".$row[12]."%</td><td align='right'>".$row[13]."</td><td align='right'>".$row[14]."</td></tr>";
-		$datos["datos"] .= "<tr><td>Instituci&oacute;n provada</td><td align='right'>".$row[15]."%</td><td align='right'>".$row[16]."</td><td align='right'>".$row[17]."</td></tr>";
+		$datos["datos"] .= "<tr><td>Instituci&oacute;n privada</td><td align='right'>".$row[15]."%</td><td align='right'>".$row[16]."</td><td align='right'>".$row[17]."</td></tr>";
 		$datos["datos"] .= "<tr><td>Otra instituci&oacute;n</td><td align='right'>".$row[18]."%</td><td align='right'>".$row[19]."</td><td align='right'>".$row[20]."</td></tr>";
 		$datos["datos"] .= "<tr><td>No derechohabiente</td><td align='right'>".$row[21]."%</td><td align='right'>".$row[22]."</td><td align='right'>".$row[23]."</td></tr>";
 		$datos["datos"] .= "<tr><td>No especificado</td><td align='right'>".$row[24]."%</td><td align='right'>".$row[25]."</td><td align='right'>".$row[26]."</td></tr>";
